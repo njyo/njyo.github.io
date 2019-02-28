@@ -1,0 +1,245 @@
+@font-face {
+    font-family: 'Salome';
+    src: url('../fonts/salome_italic-webfont.eot');
+    src: url('../fonts/salome_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/salome_italic-webfont.woff2') format('woff2'),
+         url('../fonts/salome_italic-webfont.woff') format('woff'),
+         url('../fonts/salome_italic-webfont.ttf') format('truetype'),
+         url('../fonts/salome_italic-webfont.svg#salomeitalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Geomanist';
+    src: url('../fonts/geomanist-light-webfont.eot');
+    src: url('../fonts/geomanist-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/geomanist-light-webfont.woff2') format('woff2'),
+         url('../fonts/geomanist-light-webfont.woff') format('woff'),
+         url('../fonts/geomanist-light-webfont.ttf') format('truetype'),
+         url('../fonts/geomanist-light-webfont.svg#geomanistitalic') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Geomanist';
+    src: url('../fonts/geomanist-light-italic-webfont.eot');
+    src: url('../fonts/geomanist-light-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/geomanist-light-italic-webfont.woff2') format('woff2'),
+         url('../fonts/geomanist-light-italic-webfont.woff') format('woff'),
+         url('../fonts/geomanist-light-italic-webfont.ttf') format('truetype'),
+         url('../fonts/geomanist-light-italic-webfont.svg#geomanistitalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Geomanist';
+    src: url('../fonts/geomanist-regular-webfont.eot');
+    src: url('../fonts/geomanist-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/geomanist-regular-webfont.woff2') format('woff2'),
+         url('../fonts/geomanist-regular-webfont.woff') format('woff'),
+         url('../fonts/geomanist-regular-webfont.ttf') format('truetype'),
+         url('../fonts/geomanist-regular-webfont.svg#geomanistitalic') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Geomanist';
+    src: url('../fonts/geomanist-regular-italic-webfont.eot');
+    src: url('../fonts/geomanist-regular-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/geomanist-regular-italic-webfont.woff2') format('woff2'),
+         url('../fonts/geomanist-regular-italic-webfont.woff') format('woff'),
+         url('../fonts/geomanist-regular-italic-webfont.ttf') format('truetype'),
+         url('../fonts/geomanist-regular-italic-webfont.svg#geomanistitalic') format('svg');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Geomanist';
+    src: url('../fonts/geomanist-book-webfont.eot');
+    src: url('../fonts/geomanist-book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/geomanist-book-webfont.woff2') format('woff2'),
+         url('../fonts/geomanist-book-webfont.woff') format('woff'),
+         url('../fonts/geomanist-book-webfont.ttf') format('truetype'),
+         url('../fonts/geomanist-book-webfont.svg#geomanistitalic') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Geomanist';
+    src: url('../fonts/geomanist-book-italic-webfont.eot');
+    src: url('../fonts/geomanist-book-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/geomanist-book-italic-webfont.woff2') format('woff2'),
+         url('../fonts/geomanist-book-italic-webfont.woff') format('woff'),
+         url('../fonts/geomanist-book-italic-webfont.ttf') format('truetype'),
+         url('../fonts/geomanist-book-italic-webfont.svg#geomanistitalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Geomanist';
+    src: url('../fonts/geomanist-medium-webfont.eot');
+    src: url('../fonts/geomanist-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/geomanist-medium-webfont.woff2') format('woff2'),
+         url('../fonts/geomanist-medium-webfont.woff') format('woff'),
+         url('../fonts/geomanist-medium-webfont.ttf') format('truetype'),
+         url('../fonts/geomanist-medium-webfont.svg#geomanistitalic') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Geomanist';
+    src: url('../fonts/geomanist-medium-italic-webfont.eot');
+    src: url('../fonts/geomanist-medium-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/geomanist-medium-italic-webfont.woff2') format('woff2'),
+         url('../fonts/geomanist-medium-italic-webfont.woff') format('woff'),
+         url('../fonts/geomanist-medium-italic-webfont.ttf') format('truetype'),
+         url('../fonts/geomanist-medium-italic-webfont.svg#geomanistitalic') format('svg');
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Geomanist';
+    src: url('../fonts/geomanist-bold-webfont.eot');
+    src: url('../fonts/geomanist-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/geomanist-bold-webfont.woff2') format('woff2'),
+         url('../fonts/geomanist-bold-webfont.woff') format('woff'),
+         url('../fonts/geomanist-bold-webfont.ttf') format('truetype'),
+         url('../fonts/geomanist-bold-webfont.svg#geomanistitalic') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Geomanist';
+    src: url('../fonts/geomanist-bold-italic-webfont.eot');
+    src: url('../fonts/geomanist-bold-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/geomanist-bold-italic-webfont.woff2') format('woff2'),
+         url('../fonts/geomanist-bold-italic-webfont.woff') format('woff'),
+         url('../fonts/geomanist-bold-italic-webfont.ttf') format('truetype'),
+         url('../fonts/geomanist-bold-italic-webfont.svg#geomanistitalic') format('svg');
+    font-weight: 800;
+    font-style: italic;
+}
+
+
+/* GENERAL STYLES */
+
+html {
+	background-color: #222;
+	font: 300 12pt/1.5 "Geomanist", "Avenit Next", Helvetica, Arial, sans-serif;
+	color: #fff;
+	xmin-width: 25rem;}
+html * {
+	transition: all .25s ease-in-out;
+	box-sizing: border-box;}
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	border: 0;
+	padding: 0;}
+#background {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url('../img/bg-2017.jpg') no-repeat center center fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: .2;
+	z-index: -1;}
+
+a {
+	color: #f50;}
+a {
+	text-decoration: none;}
+a:hover {
+	color: #b30;}
+
+ul {
+	list-style-type: none;
+	padding: 0 0 0 1em;}
+ul li {
+	margin: 0.25em 0 0;}
+ul li:before {
+	margin: 0 .2em 0 -1em; /* font hack */
+	content: "\2014"}
+
+/* NAVIGATION */
+nav {
+	text-align: center;
+	background-color: #000;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 3rem;
+	line-height: 3rem;
+	vertical-align: middle;
+	display: flex;
+	padding: 0 5%;}
+nav a {
+	color: #fff;
+	display: block;
+	margin: auto;
+	flex-grow: 1;
+	xfont-weight: 500;
+	text-transform: uppercase;}
+nav a.active {
+	background-color: #f50;}
+nav a:hover {
+	background-color: #b30;
+	color: #fff;}
+#main {
+	margin: 3rem 0 0;}
+
+section {
+	width: 90%;
+	margin: 1rem auto;}
+#content {
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 1rem 0;}
+
+
+/* HOME */
+
+h1 {
+	font-weight: 600;
+	margin: -1rem 0 0;
+	font-size: 2rem;}
+#credo {
+	text-align: center;
+	font-size: 2rem;
+	font-style: italic;
+	font-family:  "Salome", "Georgia", serif;
+	font-weight: 700;
+	padding: 3rem 0;}
+#credo svg {
+    display: block;
+    margin: 1rem auto 0;
+    width: 4rem;
+    height: 4rem;}
+h2 {
+	margin: 0;
+	font-size: .75rem;
+	font-weight: 500;
+    color: #f50;}
+
+
+@media all and (min-width: 40rem) {
+	#main {
+		margin: 6rem 0 3rem;
+		padding: 0 5%;
+		display: flex;
+		justify-content: space-between;}
+	#main > * {
+		margin: auto 1rem;}
+	#content {
+		width: 22.5rem;
+		flex-shrink: 0;}
+	#credo {
+		font-size: 3rem;}
+    #credo svg {
+        width: 7rem;
+        height: 7rem;}
+}

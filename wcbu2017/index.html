@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>WCBU 2017: Singapore Masters Men</title>
+        <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed" rel="stylesheet">
+        <style>
+            html, body {
+                height: 100%;}
+            html {
+                background-color: #000;
+                box-sizing: border-box;}
+            body {
+                font-family: "Fira Sans Extra Condensed", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+                display: flex;}
+            h1, h2, h3 {
+                color: #fff;
+                text-align: center;
+                text-transform: uppercase;
+                font-weight: 300;
+                margin: 0;}
+            h1 {
+                margin: auto;
+                font-size: 1.35rem;
+                font-weight: 700;
+                padding: .5rem;}
+            .title {
+                display: flex;
+                background-color: #ef3340;}
+            h2 {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                background-color: #ef3340;
+                font-size: 1.2rem;
+                padding: .25rem;}
+            h3 {
+                position: absolute;
+                color: #fff;
+                top: .075rem;
+                right: .25rem;
+                font-weight: 900;
+                font-size: 2rem;
+                text-shadow: 0 0 .25rem #000;}
+            #wrapper {
+                width: 100%;
+                margin: auto;
+                display: flex;
+                flex-wrap: wrap;}
+            .img {
+                position: relative;
+                min-width: 9rem;
+                min-height: 12rem;
+                border-radius: .5rem;
+                margin: .5rem;
+                overflow: hidden;}
+            .img > div {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;}
+            .img .still {
+                animation: hide .5s;
+                animation-delay: 8s;
+                animation-fill-mode: forwards;}
+            .img .turn {}
+
+            @keyframes hide {
+                0% {    opacity: 1;}
+                100% {  opacity: 0; visibility: hidden;}
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div class="img">
+                <div class="turn" style="background-image: url('./gifs/aaron.gif');"></div>
+                <div class="still" style="background-image: url('./gifs/aaron.png');"></div>
+                <h2>Aaron Perryman</h2>
+                <h3>40</h3>
+            </div>
+            <div class="img">
+                <div class="turn" style="background-image: url('./gifs/alex.gif');"></div>
+                <div class="still" style="background-image: url('./gifs/alex.png');"></div>
+                <h2>Alexander Lim</h2>
+                <h3>81</h3>
+            </div>
+            <div class="img">
+                <div class="turn" style="background-image: url('./gifs/edmund.gif');"></div>
+                <div class="still" style="background-image: url('./gifs/edmund.png');"></div>
+                <h2>Edmund Lew</h2>
+                <h3>0</h3>
+            </div>
+            <div class="img">
+                <div class="turn" style="background-image: url('./gifs/keeks.gif');"></div>
+                <div class="still" style="background-image: url('./gifs/keeks.png');"></div>
+                <h2>Kee Khoon Neo</h2>
+                <h3>15</h3>
+            </div>
+            <div class="img">
+                <div style="background-image: url('./gifs/kensuke.png');"></div>
+                <h2>Kensuke Nakatsu</h2>
+                <h3>31</h3>
+            </div>
+            <div class="img">
+                <div class="turn" style="background-image: url('./gifs/ky.gif');"></div>
+                <div class="still" style="background-image: url('./gifs/ky.png');"></div>
+                <h2>Kwang Yong Quek</h2>
+                <h3>66</h3>
+            </div>
+            <div class="img">
+                <div class="turn" style="background-image: url('./gifs/matias.gif');"></div>
+                <div class="still" style="background-image: url('./gifs/matias.png');"></div>
+                <h2>Matias Autio</h2>
+                <h3>13</h3>
+            </div>
+            <div class="img">
+                <div class="turn" style="background-image: url('./gifs/paul.gif');"></div>
+                <div class="still" style="background-image: url('./gifs/paul.png');"></div>
+                <h2>Paul Riley</h2>
+                <h3>57</h3>
+            </div>
+            <div class="img">
+                <div class="turn" style="background-image: url('./gifs/thomas.gif');"></div>
+                <div class="still" style="background-image: url('./gifs/thomas.png');"></div>
+                <h2>Thomas Sim</h2>
+                <h3>74</h3>
+            </div>
+            <div class="img">
+                <div class="turn" style="background-image: url('./gifs/vj.gif');"></div>
+                <div class="still" style="background-image: url('./gifs/vj.png');"></div>
+                <h2>Vijay Ranganathan</h2>
+                <h3>96</h3>
+            </div>
+            <div class="img">
+                <div class="turn" style="background-image: url('./gifs/wolf.gif');"></div>
+                <div class="still" style="background-image: url('./gifs/wolf.png');"></div>
+                <h2>Wolfgang Maehr</h2>
+                <h3>67</h3>
+            </div>
+            <div class="img title">
+                <h1>WCBU 2017: Singapore Masters Men</h1>
+            </div>
+        </div>
+    </body>
+    <script>
+        var resizeImages = function() {
+            var els = document.getElementsByClassName("img");
+            var h = (window.innerHeight - 128) / 4;
+            var w = (h / 4) * 3;
+            for (var i = 0; i < els.length; i++) {
+                els[i].style.width = w + "px";
+                els[i].style.height = h + "px";
+            }
+            var wrapper = document.getElementById("wrapper");
+            wrapper.style.width = (3 * w + 48) + "px";
+        }
+        resizeImages();
+        window.onresize = function(event) {
+            resizeImages();
+        };
+    </script>
+</html>
