@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/njyo
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://njyo.net
+  * I am njyo (https://keybase.io/njyo) on keybase.
+  * I have a public key ASDPGp9erKrwFbDE9J_yRQwrYQhGcvb2opYYT60usXXJGwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120cf1a9f5eacaaf015b0c4f49ff2450c2b61084672f6f6a296184fad2eb175c91b0a",
+      "host": "keybase.io",
+      "kid": "0120cf1a9f5eacaaf015b0c4f49ff2450c2b61084672f6f6a296184fad2eb175c91b0a",
+      "uid": "f723172bfaa6dadfca42806c51809319",
+      "username": "njyo"
+    },
+    "merkle_root": {
+      "ctime": 1598595782,
+      "hash": "ba4316b2e1a67d874cb07944b7e2c7c8a162d981c78782a082945885926953ed3e20daa244496b4579d3bad78ebd77901dfaa6b8a4e8a05c5b0b6462638ba1e7",
+      "hash_meta": "8f0bf208e45caad99e5de268a01c833c28f1658621edb0c1acdcb15f926426d2",
+      "seqno": 17404711
+    },
+    "service": {
+      "entropy": "fLxt3nGXTTXhLO8BnLouJlQ8",
+      "hostname": "njyo.net",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1598595852,
+  "expire_in": 504576000,
+  "prev": "8f89ff879864b74afd3b4897ff8c19dba86d58b4552861629274839d4f8ee799",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgzxqfXqyq8BWwxPSf8kUMK2EIRnL29qKWGE+tLrF1yRsKp3BheWxvYWTESpcCB8Qgj4n/h5hkt0r9O0iX/4wZ26htWLRVKGFiknSDnU+O55nEIHIWADajdyOyopMVqMhaV5ZELHW3UkjiD3IJ55bn1o1mAgHCo3NpZ8RA3XRNDxO+9aqLxecebRshZWZ0RR5Q3WKxtDhH/5XbPtFRZnUJxuIWoaG2Hi/PZb9nWqaTToqqJko2PYHUqEWWDKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPW3wfrF1wHmTNbSmNT444BAe/3cd8aLKmdMH+NOQQ1Bo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/njyo
+
+==================================================================
